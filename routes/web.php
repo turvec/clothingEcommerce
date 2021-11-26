@@ -18,6 +18,8 @@ Route::get('/', function () {
     return view('welcome', compact('name'));
 })->name("welcome");
 
+Route::get('hot-offers', 'MainController@hot')->name('hot');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
