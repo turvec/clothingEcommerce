@@ -1,5 +1,4 @@
 @extends('layouts.app')
-//
 @section('content')
  <!-- ekka Cart Start -->
  <div class="ec-side-cart-overlay"></div>
