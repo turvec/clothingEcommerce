@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $name="okafor";
     return view('welcome', compact('name'));
-});
+})->name("welcome");
 
 Auth::routes();
 
